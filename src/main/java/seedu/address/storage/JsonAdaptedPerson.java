@@ -103,6 +103,21 @@ class JsonAdaptedPerson {
         modelSocial.addInstagram(instagram);
         modelSocial.prefer(preferred);
         modelSocial.addUrl(imageUrl);
+        if (!whatsapp.equals("<none>")) {
+            modelSocial.addWhatsapp(whatsapp);
+        }
+        if (!telegram.equals("<none>")) {
+            modelSocial.addTelegram(telegram);
+        }
+        if (!email.equals("<none>")) {
+            modelSocial.addEmail(email);
+        }
+        if (!instagram.equals("<none>")) {
+            modelSocial.addInstagram(instagram);
+        }
+        if (!preferred.equals("<none>")) {
+            modelSocial.prefer(preferred);
+        }
 
         return modelSocial;
     }

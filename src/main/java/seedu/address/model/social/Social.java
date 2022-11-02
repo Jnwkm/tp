@@ -50,11 +50,6 @@ public class Social {
      */
     public Social() {
         this.links = new String[5];
-        links[0] = "null";
-        links[1] = "null";
-        links[2] = "null";
-        links[3] = "null";
-        links[4] = "file:src/main/resources/images/profile_pic.png";
     }
 
     /**
