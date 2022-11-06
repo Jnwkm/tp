@@ -20,14 +20,14 @@ Given below are my contributions to the project.
   * Highlights: This enhancement uses new images saved into the resources folder to be bundled into the JAR file and a function to determine the right image to display.
 
 * **New Enhancement**: Enhanced the delete command to be multi-functional.
-  * What it does: allows the user to allows the user to not just delete contacts but also delete specific fields of people.
+  * What it does: allows the user to not just delete contacts but also delete specific fields of people.
   * Justification: This feature improves the product significantly because a user may want to update contacts that no longer use those fields.
   * Highlights: This enhancement affects existing commands. It required an in-depth analysis of design alternatives. The implementation too was challenging as it required changes to existing commands and validators. Required changes to GUI also to display the deleted data field.
 
 * **Code contributed**: [RepoSense link](https://nus-cs2103-ay2223s1.github.io/tp-dashboard/?search=jnwkm&breakdown=true)
 
 * **Project management**:
-  * managed releases `v1.1` - `v1.4` (4 releases) on GitHub
+  * Co-managed releases `v1.1` - `v1.4` (4 releases) on GitHub with team
 
 * **Enhancements to existing features**:
   * Wrote additional tests for existing features to increase coverage from 46% to 52% (Pull requests [\#205](https://github.com/AY2223S1-CS2103T-T08-3/tp/pull/205), [\#38]())
@@ -35,6 +35,7 @@ Given below are my contributions to the project.
 * **Documentation**:
   * User Guide:
     * Added documentation for the features `delete`, `find` & `history` [\#97](https://github.com/AY2223S1-CS2103T-T08-3/tp/pull/97) [\#41](https://github.com/AY2223S1-CS2103T-T08-3/tp/pull/41) [\#93](https://github.com/AY2223S1-CS2103T-T08-3/tp/pull/93)
+
   * Developer Guide:
     * Added implementation details of the `history` feature. [\#87](https://github.com/AY2223S1-CS2103T-T08-3/tp/pull/87)
     * Updated implementation details of the `logic` & `ui` components.
